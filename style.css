@@ -56,9 +56,11 @@ h3{
     text-align: justify;
 
  }
-    h1{
-        text-align: justify;
-    }
+ .top p{
+     
+    font-size: larger;
+
+ }
  p,h3{
     font-size: 15px;
     text-align: justify;
@@ -67,7 +69,11 @@ h3{
     padding: 0;
     clear: left;
  }
+ h1{
+    font-size: 80px;
  }
- p.h3:hover{
-    background-color: aqua;
+ }
+ ::selection{
+    color: burlywood;
+    background-color: black;
  }
