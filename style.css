@@ -1,0 +1,70 @@
+body{
+    background-color: antiquewhite;
+}
+.top h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: inherit;
+    text-decoration: wavy;
+    color: black;
+    font-size: 80px;
+}
+.top p{
+    color: black;
+    font-weight:lighter;
+    font-size: 30px;
+    font-display: initial;
+}
+.first{
+    background-color: aliceblue;
+    display: inline-block;
+    position: static;
+    height: auto;
+    width: 900px;
+}
+.first img{
+    float: left;
+    padding: 5px;
+}
+.first p{
+    padding: 5px;
+    font-weight: bold;
+}
+h3{
+    font-size: 2rem;
+}
+.second{
+    background-color: aliceblue;
+    display: inline-block;
+    position: static;
+    height: auto;
+    width: 900px;
+}
+.second img{
+    float: left;
+    padding: 5px;
+}
+.second p{
+    padding: 5px;
+    font-weight: bold;
+}
+@media (max-width: 680px){
+ img{
+    width: 200px;
+    display:block;
+    margin-bottom: 30px;
+    text-align: justify;
+
+ }
+ p,h3{
+    font-size: 15px;
+    text-align: justify;
+    display:block;
+    margin: 0;
+    padding: 0;
+    clear: left;
+ }
+ }
+ p.h3:hover{
+    background-color: aqua;
+ }
